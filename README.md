@@ -48,8 +48,6 @@ We’ll use [Netlify](https://www.netlify.com) to go live.
 2. Log into Netlify and click **"Add new site"**
 3. Connect your GitHub account and choose your repository
 4. Configure the build settings:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `build/`
 5. Click **Deploy**
 
 🎉 Your site is now live on the web!
