@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# 🌐 Personal Website Template (React + TypeScript)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! I wanted to make a simple tutorial and starter kit for building your first website — and actually getting it live on the internet.
 
-## Available Scripts
+When I started coding, I struggled to get templates running. They were too bloated, used frameworks I didn’t understand, or broke before I could even make a change. So I built this free template to help people like me — just starting out — get something working and **deployable** without frustration.
 
-In the project directory, you can run:
+This site is a **React + TypeScript + CSS** template that includes example pages, a linktree clone, and a clean file structure. It’s designed to teach you how to build, customize, and publish your first project.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✨ What You'll Learn
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In this guide, we’ll walk through:
 
-### `npm test`
+1. Installation and Setup
+2. Creating a New Page (e.g. a Linktree clone)
+3. Deploying Your Site Live
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build and deploy your site, you'll need 3 tools:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **GitHub Desktop** – for version control and easy commits  
+  → https://desktop.github.com/download/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **VSCode** – a powerful code editor (with autocomplete, syntax highlighting, Git integration)  
+  → https://code.visualstudio.com/
 
-### `npm run eject`
+- **Netlify** – for free website deployment  
+  → https://www.netlify.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧱 Creating a Simple Page (Linktree Clone Example)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We’ll build a simple landing page with links to your social media and website.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Download icons from here:  
+👉 [Google Drive Assets](https://drive.google.com/drive/folders/1S_Cy2QEN0AEO1XhPXv7Y2cknZsTCypZI?usp=sharing)
 
-## Learn More
+## 🚀 Deploying to the Web
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We’ll use [Netlify](https://www.netlify.com) to go live.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Push your code to GitHub
+2. Log into Netlify and click **"Add new site"**
+3. Connect your GitHub account and choose your repository
+4. Configure the build settings:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `build/`
+5. Click **Deploy**
+
+🎉 Your site is now live on the web!
+
+---
+
+## 🙌 Built By
+
+Created by [Jack Pearson](https://jackpearson.dev)  
+Feel free to fork, remix, and build on top of it. Let’s make the web more accessible to new builders!
+
